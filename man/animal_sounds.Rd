@@ -13,5 +13,7 @@ animal_sounds(animal, sound)
 This function takes two character strings. One for
 the animal you want to represent and one for the
 sound it makes. There's an easter egg for entering
-"fox".
+"fox". We use the \code{paste0} function in our script.
+To find out more, visit the \link[base:paste]{documentation}.
+We have not used \code{\link[basemodels:dummy_classifier]{basemodels::dummy_classifier()}}.
 }
