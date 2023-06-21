@@ -1,0 +1,10 @@
+pandoc: 2.19.2
+pkgdown: 2.0.7
+pkgdown_sha: ~
+articles:
+  animal_sounds: animal_sounds.html
+last_built: 2023-06-21T14:16Z
+urls:
+  reference: https://brianterry1.github.io/animalsounds2/reference
+  article: https://brianterry1.github.io/animalsounds2/articles
+
