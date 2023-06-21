@@ -8,7 +8,7 @@ License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.2.3
-URL: https://github.com/BrianTerry1/animalsounds2
+URL: https://github.com/BrianTerry1/animalsounds2, https://brianterry1.github.io/animalsounds2/
 BugReports: https://github.com/BrianTerry1/animalsounds2/issues
 Imports:
   cli,
@@ -19,3 +19,6 @@ Suggests:
     testthat (>= 3.0.0)
 Config/testthat/edition: 3
 VignetteBuilder: knitr
+Depends: 
+    R (>= 2.10)
+LazyData: true
