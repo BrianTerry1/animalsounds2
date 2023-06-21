@@ -1,0 +1,27 @@
+---
+title: "animal_sounds"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{animal_sounds}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(animalsounds2)
+```
+
+The goal of animalsounds2 is to tells us what sounds animals make.
+This function takes two character strings. One for the animal you want to represent and one for the sound it makes. There's an easter egg for 
+entering "fox". We use the `paste0` function in our script.
+
+```{r example}
+animal_sounds("Dog", "woof")
+```
