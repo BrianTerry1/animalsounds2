@@ -5,10 +5,9 @@
 #' sound it makes. There's an easter egg for entering
 #' "fox". We use the `paste0` function in our script.
 #' To find out more, visit the [documentation][base::paste0()].
-#' We have not used [basemodels::dummy_classifier()].
 #'
-#' @param animal
-#' @param sound
+#' @param animal the of name the animal (character)
+#' @param sound  the of sound the animal (character)
 #'
 #' @return
 #' @export

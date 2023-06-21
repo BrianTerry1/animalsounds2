@@ -4,10 +4,12 @@
 \alias{animal_sounds}
 \title{Animal Sounds Function - all your favourite animals!}
 \usage{
-animal_sounds(animal, sound)
+animal_sounds(animal, sound = NULL)
 }
 \arguments{
-\item{sound}{}
+\item{animal}{the of name the animal (character)}
+
+\item{sound}{the of sound the animal (character)}
 }
 \description{
 This function takes two character strings. One for
@@ -15,5 +17,4 @@ the animal you want to represent and one for the
 sound it makes. There's an easter egg for entering
 "fox". We use the \code{paste0} function in our script.
 To find out more, visit the \link[base:paste]{documentation}.
-We have not used \code{\link[basemodels:dummy_classifier]{basemodels::dummy_classifier()}}.
 }
